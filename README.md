@@ -1,5 +1,5 @@
 # Go Concurrency Exercises [![Build Status](https://travis-ci.org/loong/go-concurrency-exercises.svg?branch=main)](https://travis-ci.org/loong/go-concurrency-exercises) [![Go Report Card](https://goreportcard.com/badge/github.com/loong/go-concurrency-exercises)](https://goreportcard.com/report/github.com/loong/go-concurrency-exercises)
-Exercises for Golang's concurrency patterns.
+My Solutions to the exercises for Golang's concurrency patterns.
 
 ## Why
 The Go community has plenty resources to read about go's concurrency model and how to use it effectively. But *who actually wants to read all this*!? This repo tries to teach concurrency patterns by following the 'learning by doing' approach.
