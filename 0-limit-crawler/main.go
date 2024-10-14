@@ -45,7 +45,7 @@ func main() {
     var wg sync.WaitGroup
 
     wg.Add(1)
-    t := time.NewTicker(10 * time.Second)
+    t := time.NewTicker(1 * time.Second)
     Crawl("http://golang.org/", 4, &wg, t)
     wg.Wait()
 }
