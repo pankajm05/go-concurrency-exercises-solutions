@@ -23,3 +23,7 @@ dfs(url):
         <-tick
         dfs(child)
 ```
+### Problem 1: [Producer-Consumer Scenario](https://github.com/pankajm05/go-concurrency-exercises-solutions/blob/main/1-producer-consumer/main.go)
+- This can be solved using channels.
+- The producer can put the tweets in a channel which can be captured by the consumer.
+- This way the program can run concurrently instead of running sequentially like earlier.
